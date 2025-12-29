@@ -1,0 +1,33 @@
+git init = jei folder e git add korbo 
+git status = shows current branch name ,which are added for next commit
+			which arents
+git add <file> = save <file>
+git add . = save everything (add command diye bojhano hoi porer 
+							 commit e ami ki ki change korte cassi)
+git commit -m '<message>' = save everything to git repository
+git commit -m '<message>' --amend = add changes to previous commits
+git log = to see previous commits
+		--all = to see all the commits
+		--graph = to visualize git tree
+git reset <file name>= add er opposite
+git reset .
+git checkout <commit> to go to a previous version
+git checkout <commit> . = to copy the commit version and paste it to current version
+
+git remote add origin <repository_link> = to add git to github 
+git remote = to see remote repositories
+			-v = verbous
+
+git remote remove origin = to remove github link with git
+
+(HEAD) means we are cureently at that version of the code 
+(master/main) latest commit
+visualization....working area => git add => staging area => git commit => added to branch
+add = “pack these changes”
+commit = “save a snapshot locally on this branch”
+push = “send my branch commits to GitHub”
+
+to set up username and email globally
+git config --global user.name "Abhijit Bhattacharjee"
+git config --global user.email "abhikst99@gmail.com"    
+
